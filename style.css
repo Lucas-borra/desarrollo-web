@@ -76,6 +76,7 @@ object-fit: cover;
     padding-top: 12rem;
 }
 
+
 .imagen_home {
     width: 100%;
     height: 100%;
@@ -160,6 +161,19 @@ object-fit: cover;
 
 .footer div p {
     align-items: center;
+
+}
+.botonfacebook {
+    color: white;
+background-image: linear-gradient(blue,red);
+width: 150px;
+height: 150px;
+transition: all 1s;
+
+}
+.botonfacebook:hover {
+background-image: linear-gradient(yellow,green);
+transform: scale(1);
 
 }
 
