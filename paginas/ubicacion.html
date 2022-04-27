@@ -14,33 +14,60 @@
 
 <body>
     <header class="header">
-        <img src="../imagenes/la escondida logo.jpg" alt="logo_imagen" class="imagen_logo">
-        <div class="logo-nav-container">
-            <nav class="navegacion">
-                <ul class="cabecera_lista">
-                    <li><a href="../index.html" class="cabecera_imagen_link">Home</a></li>
-                    <li><a href="contactos.html" class="cabecera_imagen_link">Contacto</a></li>
-                    <li><a href="establecimiento.html" class="cabecera_imagen_link">Establecimiento</a></li>
-                    <li><a href="actividades.html" class="cabecera_imagen_link">Actividades</a></li>
-                    <li><a href="#" class="cabecera_imagen_link">Ubicacion</a></li>
-                </ul>
-            </nav>
-        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/"><img src="../imagenes/la escondida logo.jpg" alt="logoimagen"
+                        class="imagen_logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="establecimiento.html">Establecimiento</a>
+                        <a class="nav-link" href="actividades.html">Actividades</a>
+                        <a class="nav-link" href="ubicacion.html">Ubicacion</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
     </header>
     <div class="container">
-        <main class="main">
+        <main class="conteiner-fluid main">
             <h1>Ubicacion</h1>
+            <div class="col-lag-6 main_description">
+                <h2>Como llegar</h2>
+                <P>El club se encuentra ubicado en erezcano 351 entre amenedo,a una cuadra de la estacion de jose marmol,almirante brown,buenos aires,argentina</P>
+                <h2> Medios de transporte</h2>
+                <h3>Colectivos - trenes</h3>
+                <p>Linea de colectivos:  514,505,401,271</p>
+                <P>Trenes:  linea roca,a una cuadra de la estacion de jose marmol</P>
+
+                <p></p>
+
+            </div>
+            <div class="ratio ratio-4x3">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3276.659731475371!2d-58.38667988504598!3d-34.78934047484967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd33aea5b66ef%3A0x6d062e504653c92f!2sLa%20Escondida%20F%C3%BAtbol%205%20Padel!5e0!3m2!1ses!2sar!4v1651015242051!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                
+
+            </div>
         </main>
     </div>
-    <footer class="footer">
-        <div class="div">
-            <p>Pagina diseñada por @lucasborra</p>
-            <ul>
-                <li><a href="https://www.facebook.com/mipagina" target="_blank" rel="">
-                        <i class="fa-brands fa-facebook fa-2x"></i></a> </a></li>
-                <li><a href="https://www.instagram.com/" target="_blank" rel=""><i
-                            class="fa-brands fa-instagram-square fa-2x"></i></i></a></li>
-            </ul>
+    <footer class="conteiner-fluid footer">
+        <div class="row">
+            <p>SEGUINOS</p>
+            <div class="col-lg-4 footer_logo">
+                <img src="../imagenes/la escondida logo.jpg" alt="logoimagen" class="imagen_logo w-25">
+            </div>
+            <div class="col-lg-4 footer_redes">
+                <a href="https://www.facebook.com/mipagina" target="_blank" rel="">
+                    <i class="fa-brands fa-facebook fa-2x"></i></a> </a>
+                <a href="https://www.instagram.com/" target="_blank" rel=""><i
+                        class="fa-brands fa-instagram-square fa-2x"></i></i></a>
+            </div>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
