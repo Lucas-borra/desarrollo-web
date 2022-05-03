@@ -9,16 +9,22 @@ h1 {
     font-size: 2rem;
     line-height: 1.3em;
     text-align: center;
-    margin: 1rem
+    margin: 3rem
 }
 
 h2 {
     text-align: center;
+    margin: 3rem
+}
+h3 {
+    text-align: center;
+    margin: 2rem
 }
 
 p {
     color: black;
     margin-bottom: 1.6em;
+    text-align: center;
 }
 
 .container {
@@ -49,7 +55,7 @@ p {
 }
 
 .header {
-    background: #333;
+    background: #615f5f;;
     color: white;
     padding: 1rem 0;
 
@@ -93,6 +99,15 @@ p {
 .main {
     padding-top: 12rem;
 }
+.imagen_actividades{
+    width: 250px;
+    height: 250px;
+    margin: 3rem;
+    object-fit: cover;
+}
+.imagen_contacto{
+    margin: 5rem;
+}
 
 
 .imagen_home {
@@ -102,8 +117,8 @@ p {
 
 .imagen_futbol {
     margin: 40px auto;
-    width: 100%;
-    height: 100%;
+    width: 250px;
+    height: 250px;
     object-fit: cover;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -115,8 +130,8 @@ p {
 
 .imagen_padel {
     margin: 40px auto;
-    width: 100%;
-    height: 100%;
+    width: 250px;
+    height: 250px;
     object-fit: cover;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -165,7 +180,7 @@ p {
 }
 
 .footer {
-    background: #4b4a4a;
+    background: #615f5f;
     padding: 4rem 0;
     text-align: center;
     margin-top: 6rem;
@@ -258,3 +273,4 @@ p {
     .main {
         padding-top: 12rem;
     }
+}
