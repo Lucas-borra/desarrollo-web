@@ -1,0 +1,21 @@
+.header {
+    background: #615f5f;;
+    color: white;
+    padding: 1rem 0;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    .navbar {
+        background-image: url("./imagenes/pastosintetico.jpg");
+        display: flex;
+        align-items: center;
+        .nav-link {
+            background: rgba(255, 255, 255, 0.801); }
+    }
+}
+.imagen_logo {
+    width: 15%;
+    align-items: center;
+}
