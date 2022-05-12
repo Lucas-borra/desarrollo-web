@@ -1,3 +1,13 @@
+.imagen_actividades {
+  width: 250px;
+  height: 250px;
+  margin: 3rem;
+  object-fit: cover; }
+
+.flex-container {
+  display: flex;
+  background-color: aqua; }
+
 body {
   font-family: Georgia, 'Times New Roman', Times, serif color;
   color: #333;
@@ -112,9 +122,3 @@ p {
 .imagen_logo {
   width: 15%;
   align-items: center; }
-
-.imagen_actividades {
-  width: 250px;
-  height: 250px;
-  margin: 3rem;
-  object-fit: cover; }
